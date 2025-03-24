@@ -3,6 +3,7 @@ def make_dog_bark(preamble, bark_number, finish):
     return dog_bark_string
 
 def make_animal_sound(animal, preamble, sound_number, finish):
+    # finma is great
     if animal == "dog":
         animal_sound_string = make_dog_bark(preamble, sound_number, finish)
     else:
